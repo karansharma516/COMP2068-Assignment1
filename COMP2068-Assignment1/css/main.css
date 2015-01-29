@@ -1,5 +1,9 @@
 ﻿body {
     
+    background-image: url('../lib/images/Jungle-Background.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    /*
     background: #b5bdc8;
     background: -moz-radial-gradient(center, ellipse cover, #b5bdc8 0, #828c95 36%, #28343b 100%);
     background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0,#b5bdc8), color-stop(36%,#828c95), color-stop(100%,#28343b));
@@ -8,6 +12,7 @@
     background: -ms-radial-gradient(center, ellipse cover, #b5bdc8 0,#828c95 36%,#28343b 100%);
     background: radial-gradient(ellipse at center, #b5bdc8 0,#828c95 36%,#28343b 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
+   */
 }
     
 
