@@ -3,6 +3,7 @@
     background-image: url('../lib/images/Jungle-Background.jpg');
     background-repeat:no-repeat;
     background-size:100%;
+    background-attachment:fixed;
     /*
     background: #b5bdc8;
     background: -moz-radial-gradient(center, ellipse cover, #b5bdc8 0, #828c95 36%, #28343b 100%);

@@ -1,4 +1,22 @@
-﻿<!DOCTYPE html>
+﻿<!--
+    Program Description: This program is a king of adventure game in which player has to follow the correct way to get
+    out from the jungle. At each level, player will be provided with the different clues to get out from the jungle.
+
+    Title: COMP2068-Assignment1
+    Author - Karan Sharma
+    Last Modified by - Karan Sharma
+    Date Modified on - January 30, 3015
+
+    Revision History:
+    Version #1.0 – Start working on the game designing and added all the files to initialise the game. Made the first slide which is starting point of the game.
+    Version #1.1 – Added index file to check the implementation of the game. Remove bugs from the index file and then uploaded it.
+    Version #1.2 – Updated index file with the complete functionality of right way from the starting point. corrected the positions of the slides.
+    Version #1.3 – Updated index file with the complete functionality of left way from the starting point and updated whole game functionality. Positions error fixed at different levels.
+    Version #1.4 – Added background image in the game and set the size and position of the background image.
+-->
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -38,7 +56,7 @@
         </div>
 
 
-        <!-- Slide 4 - Dark way -->
+        <!-- Slide 4 - Dark way selected -->
         <div id="dark" class="step slide" data-y="1500" data-x="1700">
             <div class="slide-text">
                 <p>You start following the Dark way, and You see the rabbit in front of you.</p>
@@ -52,7 +70,7 @@
             </div>
         </div>
 
-        <!-- Slide 8 - Rabbit way -->
+        <!-- Slide 8 - Rabbit way selected-->
         <div id="rabbit" class="step slide" data-y="3800" data-x="5500">
             <div class="slide-text">
                 <p>You start following the rabbit, and tiger jumps in front of you.</p>
@@ -65,7 +83,7 @@
         </div>
 
 
-        <!-- Slide 9 - other way -->
+        <!-- Slide 9 - other way selected-->
         <div id="other" class="step slide" data-y="1900" data-x="5000">
             <div class="slide-text">
                 <p> While following the other way you selected, you noticed that it is very dark and you are not able to see things properly</p>
@@ -78,7 +96,7 @@
         </div>
 
 
-        <!-- Slide 5 - Bright way -->
+        <!-- Slide 5 - Bright way selected -->
         <div id="bright" class="step slide" data-x="8300">
             <div class="slide-text">
                 <p>You start following Bright way, while following this way, you have noticed that this way further splits into two different ways.</p>
@@ -95,7 +113,7 @@
         </div>
 
 
-        <!-- Slide 11 - way1 -->
+        <!-- Slide 11 - way1 selected -->
         <div id="way1" class="step slide" data-y="-4500" data-x="2700">
             <div class="slide-text">
                 <p>You selected the way 1 because you decided to eat some food before proceeding. </p>
@@ -109,7 +127,7 @@
         </div>
 
 
-        <!-- Slide 17 - same way-->
+        <!-- Slide 17 - same way selected-->
         <div id="same" class="step slide" data-y="2600" data-x="6800">
             <div class="slide-text">
                 <p> As you selected to follow this way continue, hungry fox jumps in front of you and you died.</p>
@@ -121,7 +139,7 @@
         </div>
 
 
-        <!-- Slide 10 - way2 -->
+        <!-- Slide 10 - way2 selected-->
         <div id="way2" class="step slide" data-y="2100" data-x="5700">
             <div class="slide-text">
                 <p>
@@ -166,10 +184,7 @@
         </div>
 
 
-
-
-
-        <!-- Slide 3 - LEFT WAY-->
+        <!-- Slide 3 - LEFT WAY selected-->
         <div id="left" class="step slide" data-x="-1600">
             <div class="slide-text">
                 <p>You approach the Left way, You see that this way splits into further two ways</p>
@@ -195,7 +210,7 @@
             </div>
         </div>
 
-        <!-- Slide 12 - Fight -->
+        <!-- Slide 12 - player want to Fight with lion -->
         <div id="fight" class="step slide" data-y="6700" data-x="3200">
             <div class="slide-text">
                 <p>You choose to fight with Lion and you fought very bravely but, unfortunately Lion defeat you and you died</p>
@@ -207,7 +222,7 @@
         </div>
 
 
-        <!-- Slide 13 - Ran -->
+        <!-- Slide 13 - player want to Ran -->
         <div id="ran" class="step slide" data-y="2900" data-x="-3300">
             <div class="slide-text">
                 <p>you ran to climb the tree to defend yourself, but Lion hit the tree with great power and you fell down and died </p>
@@ -235,7 +250,7 @@
             </div>
         </div>
 
-        <!-- Slide 15 - Lake 1 -->
+        <!-- Slide 15 - Lake 1 selected -->
         <div id="freshwater" class="step slide" data-y="3300" data-x="3700">
             <div class="slide-text">
                 <p>You selected to follow the freshwater lake because you think it might be ends at city.</p>
@@ -248,7 +263,7 @@
         </div>
 
 
-        <!-- Slide 16 - lake 2 -->
+        <!-- Slide 16 - lake 2 selected-->
         <div id="mud" class="step slide" data-y="3500" data-x="4500">
             <div class="slide-text">
                 <p>you selected to follow the shortway. But, your boat stuck in the mud and crocodile attacks on you and you died. </p>
